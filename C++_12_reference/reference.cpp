@@ -8,11 +8,11 @@ int main ()
 	int    i;
 	double d;
 
-	// 声明引用变量
+	// 声明引用变量;(先引用；)
 	int&    r = i;
 	double& s = d;
 
-	i = 5;
+	i = 5;       //（后赋值）
 	cout << "Value of i : " << i << endl;
 	cout << "Value of i reference : " << r  << endl;
 

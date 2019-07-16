@@ -1,5 +1,5 @@
 /*
- *下面的实例对上面的实例稍作修改，通过使用已有的同类型的对象来初始化新创建的对象：
+ *下面的实例对上面的实例稍作修改，通过使用已有的同类型的对象line1 来初始化新创建的对象line2：
  */
 
 #include <iostream>
@@ -44,6 +44,7 @@ int Line::getLength( void )
 	return *ptr;
 }
 
+//显示拷贝的对象的line值
 void display(Line obj)
 {
 	cout << "line 大小 : " << obj.getLength() <<endl;

@@ -50,11 +50,13 @@ Line::~Line(void)
 	cout << "释放内存" << endl;
 	delete ptr;
 }
+
 int Line::getLength( void )
 {
 	return *ptr;
 }
 
+//显示拷贝出的对象的line值
 void display(Line obj)
 {
 	cout << "line 大小 : " << obj.getLength() <<endl;
